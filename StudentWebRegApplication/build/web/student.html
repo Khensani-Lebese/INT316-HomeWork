@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Student Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Registrar</h1>
+        <form action="AddStudentServlet.do" method="post">
+            <table>
+                <tr>
+                    <td>Student Number</td>
+                    <td><input type="text" name="studno" required=""></td>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" name="name" required=""></td>
+                </tr>
+                <tr>
+                    <td>Surname</td>
+                    <td><input type="text" name="surname" required=""></td>
+                </tr>
+                <tr>
+                    <td>Course</td>
+                    <td><select name="course">
+                            <option value="Computer Science">Computer Science</option>
+                            <option value="Systems Development">Systems Development</option>
+                            <option value="Infromatics">Informatics</option>
+                            <option value="Information Security">Information Security</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="register"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
