@@ -110,15 +110,5 @@ Access the App
 
 Go to: http://localhost:8080/student-registration-system/register.jsp
 
-Sample SQL Table
-sql
-Copy
-Edit
-CREATE TABLE students (
-id INT AUTO_INCREMENT PRIMARY KEY,
-name VARCHAR(100),
-studentId VARCHAR(50),
-course VARCHAR(100)
-);
 License
 This project is for academic and learning purposes only. No commercial use is allowed without permission.
